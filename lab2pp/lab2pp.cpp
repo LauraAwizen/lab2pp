@@ -46,7 +46,7 @@ int main()
 	 }
 	 cout << endl;*/
 	 //zad.6
-	 int fahr, celsius;
+	 /*int fahr, celsius;
 	 int start, limit, krok;
 	 start = 0;
 	 fahr = start;
@@ -58,17 +58,35 @@ int main()
 	 {
 		 float celsius = (5 / 9) * (fahr - 32.0);
 		 cout << fahr << "\t" << celsius << endl;
-	 }
+	 }*/
 	 cout << endl;
 	 //zad.7
-	 int x; float y;
+	 /*int x; float y;
 	 for(x=0; x<=10;x++){
 		 cout << "podaj liczbe";
 		 cin >> y;
-		 if
+		 if (y > 0) {
+			 cout << y;
+		 }
+		 }*/
+		 cout << endl;
+	 
+	 //zad.8
+	 /*int a;
+	 for (a = 0; a <= 100; a+=2) {
+		 cout << a;
+	 }*/
+	 cout << endl;
+	 //zad.9
+	 int a, n;
+	 cout << "podaj liczbe:";
+	 cin >> n;
+	 for (a = 0; a <= 100; a++) {
 
+		 if (a%n==0) {
+			 cout << a;
+		 }
 	 }
-
 
 	 
 		return 0;
