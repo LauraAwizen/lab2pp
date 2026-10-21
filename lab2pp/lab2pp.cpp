@@ -6,5 +6,6 @@ int main()
 {
 	int x
 	cout << "xd";
+	cin >> x;
 		return 0;
 }
