@@ -18,6 +18,58 @@ int main()
 	for (int i = 10; i>=0; i-=1) {
 		cout << i << endl;
 	}
+	cout << endl;
+	//zad.3
+	 /*int fahr, celsius;
+	 int start, limit, krok;
+	 start = 0;
+	 limit = 200;
+	 krok = 20;
+	 fahr = start;
+	 for (fahr = 0; fahr <= limit; fahr = fahr + krok)  
+	 {
+		 float celsius = (5.0 / 9.0) * (fahr - 32.0);
+		 cout << fahr << "\t" << celsius << endl;
+	 }
+	 cout << endl;*/
+	 //zad.5
+	 /*int fahr, celsius;
+	 int start, limit, krok;
+	 start = 0;
+	 limit = 200;
+	 krok = 20;
+	 fahr = start;
+	 for (fahr = 0.0; fahr <= limit; fahr = fahr + krok) 
+	 {
+		 float celsius = (5 / 9) * (fahr - 32.0);
+		 cout << fahr << "\t" << celsius << endl;
+	 }
+	 cout << endl;*/
+	 //zad.6
+	 int fahr, celsius;
+	 int start, limit, krok;
+	 start = 0;
+	 fahr = start;
+	 cout << "Podaj limit: ";
+	 cin >> limit;
+	 cout << "Podaj krok: ";
+	 cin >> krok;
+	 for (fahr = 0.0; fahr <= limit; fahr = fahr + krok)
+	 {
+		 float celsius = (5 / 9) * (fahr - 32.0);
+		 cout << fahr << "\t" << celsius << endl;
+	 }
+	 cout << endl;
+	 //zad.7
+	 int x; float y;
+	 for(x=0; x<=10;x++){
+		 cout << "podaj liczbe";
+		 cin >> y;
+		 if
 
+	 }
+
+
+	 
 		return 0;
 }
