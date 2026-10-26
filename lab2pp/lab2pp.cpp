@@ -78,14 +78,26 @@ int main()
 	 }*/
 	 cout << endl;
 	 //zad.9
-	 int a, n;
+	 /*int a, n;
 	 cout << "podaj liczbe:";
 	 cin >> n;
 	 for (a = 0; a <= 100; a++) {
 
 		 if (a%n==0) {
 			 cout << a;
-		 }
+		 }*/
+		 //zad.10 
+		 int n, x, licznik;     
+		 licznik=0;     
+		 cout <<"podaj liczbę:";     
+		 cin >>n;     
+		 for(x=0;x<=100;x++){         
+			 if(x%n==0){        
+				 licznik++;          
+			 }     
+		 }    
+		 cout<<"liczb podzielnych przez"<<n<<"jest:"<<licznik;     
+		 cout<<endl; 
 	 }
 
 	 
